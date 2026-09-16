@@ -1,0 +1,15 @@
+metric,value
+Total transactions,123000.0
+Total AML alerts,9734.0
+Alert rate (%),7.91
+P1 alerts,450.0
+P2 alerts,236.0
+P3 alerts,9048.0
+P4 alerts,113266.0
+Critical risk,25.0
+High risk,292.0
+Medium risk,9417.0
+Low risk,113266.0
+Strong ML / Rule agreement,222.0
+ML high / Rule low,47.0
+Rule high / ML low,7907.0

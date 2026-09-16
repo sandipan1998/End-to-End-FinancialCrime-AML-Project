@@ -1,0 +1,18 @@
+AML TRANSACTION MONITORING PROJECT
+PORTFOLIO METRICS
+================================================================================
+
+Total transactions: 123000
+Unique customers: 5000
+Suspicious transactions: 3000
+Suspicious transaction rate: 2.44
+Investigation cases: 659
+SAR narrative drafts: 659
+ML precision: 96.65
+ML recall: 100.0
+ML F1: 98.3
+ML false positive rate: 0.04
+
+
+IMPORTANT:
+The dataset is synthetic and designed for portfolio demonstration. Model performance should not be interpreted as production financial-crime detection performance.

@@ -1,0 +1,8 @@
+metric,value
+True Positive,3000.0
+False Positive,10090.0
+False Negative,0.0
+True Negative,109910.0
+Precision,0.22918258212375858
+Recall,1.0
+F1 Score,0.3729024238657551

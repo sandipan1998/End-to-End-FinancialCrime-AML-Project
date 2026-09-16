@@ -1,0 +1,11 @@
+US FINANCIAL CRIME AI PROJECT
+PHASE 5 - AML MACHINE LEARNING MODEL
+
+Best model: Logistic Regression
+PR-AUC: 1.000000
+Precision: 0.966543
+Recall: 1.000000
+F1: 0.982987
+ROC-AUC: 1.000000
+False Positive Rate: 0.000370
+False Negative Rate: 0.000000

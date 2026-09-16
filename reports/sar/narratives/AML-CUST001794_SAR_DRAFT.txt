@@ -1,0 +1,16 @@
+SAR NARRATIVE DRAFT
+===========================================================================
+
+Case ID: AML-CUST001794
+Customer ID: CUST001794
+Risk Level: MEDIUM
+Risk Score: 30.0
+Primary Alert Type: GENERAL_TRANSACTION_MONITORING
+
+NARRATIVE
+---------------------------------------------------------------------------
+
+Case AML-CUST001794 was reviewed for potential suspicious financial activity involving Customer CUST001794 is identified in the synthetic dataset as a customer. The recorded annual income is $0.00, and the expected monthly transaction volume is $0.00. During the period from 2025-01-01 through 2025-11-16, the customer conducted 29 reviewed transactions totaling $15,527.69. The activity generated an AML monitoring alert categorized as GENERAL_TRANSACTION_MONITORING. The alert was generated because High rule-engine risk; PEP indicator. Transaction types observed included CARD_PAYMENT, WIRE, P2P_TRANSFER, INTERNATIONAL_WIRE, ATM, ACH, CASH_WITHDRAWAL, CASH_DEPOSIT. Channels observed included Online Banking, Mobile App, Branch, Phone, ATM. Observed origin countries included United States, United Kingdom, Germany, UAE, Brazil, Turkey. Observed destination countries included United States, Germany, UAE, Turkey, Hong Kong, Brazil. The investigation identified the following behavioral indicators: Activity involves multiple origin countries and elevated transaction frequency.; Customer interacted with multiple counterparties.; Customer is marked with a PEP indicator in the synthetic dataset.. The combined AML risk score for the case was 30.00, with a case risk level of MEDIUM and investigation priority P3. Model and rule assessment was recorded as RULE_HIGH_ML_LOW. The activity was considered unusual for review because the observed transaction behavior, transaction volume, frequency, geographic activity and/or other risk indicators required additional assessment against the customer's known profile and expected activity. Examples of reviewed transactions include transaction TXN00094005 for $59.55 on 2025-01-01 20:41:00; transaction TXN00044523 for $40.34 on 2025-01-15 11:20:00; transaction TXN00064577 for $929.17 on 2025-01-25 12:18:00; transaction TXN00004767 for $161.65 on 2025-02-18 15:42:00; transaction TXN00101928 for $1,530.27 on 2025-02-24 11:52:00. The information above represents the available synthetic investigation evidence for analyst review. Any SAR filing determination should be made by an authorized financial-crime professional after review of the relevant facts and supporting information.
+
+HUMAN REVIEW REQUIRED: YES
+AUTOMATIC SAR FILING: NO

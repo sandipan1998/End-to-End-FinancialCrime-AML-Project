@@ -1,0 +1,6 @@
+case_priority,case_risk_level,case_count,average_risk_score,maximum_risk_score,total_alert_count
+P1,CRITICAL,2,82.5,82.5,68
+P1,HIGH,7,52.07142857142857,53.5,167
+P1,MEDIUM,13,47.09615384615385,47.5,258
+P2,HIGH,12,73.765,75.0,243
+P3,MEDIUM,625,30.963584,49.5,8998

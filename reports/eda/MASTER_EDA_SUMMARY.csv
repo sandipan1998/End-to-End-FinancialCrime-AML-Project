@@ -1,0 +1,19 @@
+metric,value
+Total Customers,5000.0
+Total Accounts,5000.0
+Total Transactions,123000.0
+Total Alerts,13090.0
+Suspicious Transactions,3000.0
+Suspicious Transaction %,2.4390243902439024
+Alert %,10.642276422764228
+PEP Customers,178.0
+Sanctions Flagged Customers,20.0
+Adverse Media Customers,193.0
+International Transactions,59759.0
+Cash Transactions,22191.0
+True Positive,3000.0
+False Positive,10090.0
+False Negative,0.0
+Precision,0.22918258212375858
+Recall,1.0
+F1 Score,0.3729024238657551

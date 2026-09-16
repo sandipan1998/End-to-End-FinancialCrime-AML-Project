@@ -1,0 +1,12 @@
+category,test,status,actual,expected
+DATA_INTEGRITY,Transaction dataset is non-empty,PASS,123000.0,> 0
+DATA_INTEGRITY,No duplicate transaction IDs,PASS,0.0,0
+DATA_INTEGRITY,Customer IDs exist,PASS,5000.0,> 0
+DATA_INTEGRITY,No negative transaction amounts,PASS,0.0,0
+DATA_INTEGRITY,Suspicious transactions exist,PASS,3000.0,> 0
+ML,Precision,CALCULATED,0.966542750929368,Review
+ML,Recall,CALCULATED,1.0,Review
+ML,F1,CALCULATED,0.9829867674858223,Review
+INVESTIGATION,Investigation cases generated,PASS,659.0,> 0
+SAR,SAR drafts generated,PASS,659.0,> 0
+SHAP,SHAP explanation available,PASS,70.0,> 0

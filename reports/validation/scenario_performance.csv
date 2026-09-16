@@ -1,0 +1,7 @@
+scenario,records,true_positive,false_negative,false_positive,true_negative,precision,recall
+FRAUD_LINKED,60,60,0,0,0,1.0,1.0
+FUNNEL_ACCOUNT,80,80,0,0,0,1.0,1.0
+MULE,40,40,0,0,0,1.0,1.0
+NORMAL,24340,0,0,9,24331,0.0,0.0
+RAPID_MOVEMENT,60,60,0,0,0,1.0,1.0
+STRUCTURING,20,20,0,0,0,1.0,1.0

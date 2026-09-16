@@ -1,0 +1,39 @@
+PHASE 6 - SHAP GLOBAL EXPLAINABILITY SUMMARY
+======================================================================
+
+Model: Logistic Regression
+Model file: C:\Users\Sandipan\OneDrive\Desktop\Project\Visa-Approval-Machine-Learning-Project\models\aml_logistic_regression.joblib
+Original dataset rows: 123000
+SHAP sample rows: 5000
+Number of model features: 70
+
+TOP 20 GLOBAL SHAP FEATURES
+----------------------------------------------------------------------
+1. transaction_hour -> mean |SHAP| = 2.644747
+2. log_amount -> mean |SHAP| = 2.383079
+3. transaction_month -> mean |SHAP| = 1.405451
+4. international_ratio_24h -> mean |SHAP| = 1.266429
+5. is_night_transaction -> mean |SHAP| = 0.856385
+6. channel_transaction_ratio -> mean |SHAP| = 0.777505
+7. channel_transaction_count -> mean |SHAP| = 0.676986
+8. suspicious_transaction_ratio -> mean |SHAP| = 0.583485
+9. cash_ratio_24h -> mean |SHAP| = 0.538344
+10. amount_deviation_from_average -> mean |SHAP| = 0.415506
+11. amount_vs_customer_max -> mean |SHAP| = 0.380114
+12. amount_vs_customer_average -> mean |SHAP| = 0.343806
+13. customer_volume_share -> mean |SHAP| = 0.301248
+14. structuring_customer_count -> mean |SHAP| = 0.292710
+15. unique_counterparties -> mean |SHAP| = 0.286324
+16. amount_usd -> mean |SHAP| = 0.277195
+17. is_weekend -> mean |SHAP| = 0.266187
+18. customer_total_transactions -> mean |SHAP| = 0.263789
+19. top_transaction_indicator -> mean |SHAP| = 0.241918
+20. rapid_movement_ratio -> mean |SHAP| = 0.236091
+
+
+INTERPRETATION
+----------------------------------------------------------------------
+Positive SHAP values push the model toward a suspicious prediction.
+Negative SHAP values push the model toward a normal prediction.
+Mean absolute SHAP measures the average importance of a feature.
+SHAP explanations describe model behavior and should not be interpreted as proof of criminal activity.

@@ -1,0 +1,2 @@
+rule_engine,true_positive,false_positive,false_negative,true_negative,precision,recall
+Combined Rule Alert,3000,119324,0,676,0.0245,1.0

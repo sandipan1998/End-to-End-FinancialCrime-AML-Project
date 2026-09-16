@@ -1,0 +1,16 @@
+SAR NARRATIVE DRAFT
+===========================================================================
+
+Case ID: AML-CUST000651
+Customer ID: CUST000651
+Risk Level: MEDIUM
+Risk Score: 28.0
+Primary Alert Type: GENERAL_TRANSACTION_MONITORING
+
+NARRATIVE
+---------------------------------------------------------------------------
+
+Case AML-CUST000651 was reviewed for potential suspicious financial activity involving Customer CUST000651 is identified in the synthetic dataset as a customer. The recorded annual income is $0.00, and the expected monthly transaction volume is $0.00. During the period from 2025-01-15 through 2025-11-23, the customer conducted 22 reviewed transactions totaling $20,491.75. The activity generated an AML monitoring alert categorized as GENERAL_TRANSACTION_MONITORING. The alert was generated because High rule-engine risk. Transaction types observed included CASH_WITHDRAWAL, CARD_PAYMENT, P2P_TRANSFER, CASH_DEPOSIT, ACH, ATM. Channels observed included Online Banking, Mobile App, ATM, Phone. Observed origin countries included United States, Hong Kong, Germany, Mexico. Observed destination countries included India, United States, Canada, Nigeria, Mexico, Germany. The investigation identified the following behavioral indicators: Activity involves multiple origin countries and elevated transaction frequency.; Transaction activity is consistent with the synthetic mule-behavior scenario.; Customer interacted with multiple counterparties.. The combined AML risk score for the case was 28.00, with a case risk level of MEDIUM and investigation priority P3. Model and rule assessment was recorded as RULE_HIGH_ML_LOW. The activity was considered unusual for review because the observed transaction behavior, transaction volume, frequency, geographic activity and/or other risk indicators required additional assessment against the customer's known profile and expected activity. Examples of reviewed transactions include transaction TXN00070352 for $11.90 on 2025-01-15 03:06:00; transaction TXN00055022 for $35.16 on 2025-01-23 03:12:00; transaction TXN00075911 for $614.10 on 2025-03-28 00:43:00; transaction TXN00093078 for $200.64 on 2025-04-21 03:13:00; transaction TXN00080004 for $8,722.93 on 2025-05-03 01:03:00. The information above represents the available synthetic investigation evidence for analyst review. Any SAR filing determination should be made by an authorized financial-crime professional after review of the relevant facts and supporting information.
+
+HUMAN REVIEW REQUIRED: YES
+AUTOMATIC SAR FILING: NO

@@ -1,0 +1,33 @@
+AML RISK SCORING CONFIGURATION
+======================================================================
+
+IMPORTANT:
+This is a project-specific risk prioritization framework.
+It is not a regulatory formula or legal determination.
+A high score does not prove money laundering or fraud.
+SAR decisions require appropriate human investigation and institutional procedures.
+
+SCORING WEIGHTS
+----------------------------------------------------------------------
+ML Risk Score: 40%
+Rule Engine Score: 35%
+Customer Risk Score: 15%
+CDD Indicator Component: 10%
+
+RISK LEVELS
+----------------------------------------------------------------------
+CRITICAL: 75-100
+HIGH: 50-74.99
+MEDIUM: 25-49.99
+LOW: 0-24.99
+
+ALERT THRESHOLD
+----------------------------------------------------------------------
+AML alert threshold: 25
+
+PRIORITY LEVELS
+----------------------------------------------------------------------
+P1: Urgent
+P2: High
+P3: Standard
+P4: Low / Monitoring

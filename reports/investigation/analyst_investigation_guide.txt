@@ -1,0 +1,46 @@
+AML TRANSACTION MONITORING - ANALYST INVESTIGATION GUIDE
+===========================================================================
+
+PURPOSE
+This guide provides a structured investigation workflow for AML transaction-monitoring alerts.
+
+STEP 1 - REVIEW ALERT
+---------------------------------------------------------------------------
+Review alert score, priority, alert type, rule signals, ML score and SHAP drivers.
+
+STEP 2 - REVIEW CUSTOMER PROFILE
+---------------------------------------------------------------------------
+Review customer type, occupation, expected activity, risk rating, PEP indicator, sanctions indicator and adverse-media indicator.
+
+STEP 3 - REVIEW TRANSACTION ACTIVITY
+---------------------------------------------------------------------------
+Review transaction amounts, frequency, counterparties, cash activity, international activity, geographic activity and transaction timing.
+
+STEP 4 - REVIEW RED FLAGS
+---------------------------------------------------------------------------
+Assess whether identified red flags have a reasonable explanation based on the customer's known profile and expected activity.
+
+STEP 5 - REVIEW MODEL EXPLANATION
+---------------------------------------------------------------------------
+Use SHAP drivers to understand which behavioral features contributed to the model's risk prediction.
+
+STEP 6 - CUSTOMER CONTEXT
+---------------------------------------------------------------------------
+Consider whether the activity is consistent with the customer's occupation, income, expected volume, geography and known business purpose.
+
+STEP 7 - DISPOSITION
+---------------------------------------------------------------------------
+Possible analyst dispositions in this project include:
+  - FALSE_POSITIVE
+  - CLEARED
+  - MONITOR
+  - INVESTIGATE_FURTHER
+  - ESCALATE
+
+STEP 8 - SAR CONSIDERATION
+---------------------------------------------------------------------------
+SAR consideration should be based on appropriate investigation, applicable requirements, institutional procedures and human review. A machine-learning score alone should not automatically determine SAR filing.
+
+IMPORTANT MODEL GOVERNANCE NOTE
+---------------------------------------------------------------------------
+Rules, thresholds and ML scores are risk indicators. They are not legal conclusions and should be reviewed within the institution's governance framework.

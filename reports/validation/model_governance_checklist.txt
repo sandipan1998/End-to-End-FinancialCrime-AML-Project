@@ -1,0 +1,19 @@
+AML MODEL GOVERNANCE CHECKLIST
+================================================================================
+
+[PASS] Synthetic dataset clearly identified
+[REVIEW] Target variable separated from ML features
+[PASS] Time-based train/test split used
+[PASS] Rule and ML signals evaluated separately
+[PASS] False positives evaluated
+[PASS] False negatives evaluated
+[PASS] Scenario-level performance evaluated
+[PASS] SHAP explainability implemented
+[PASS] Human analyst review preserved
+[PASS] Automatic SAR filing disabled
+[PASS] Model output treated as risk indicator
+[REVIEW] Production validation still required
+[REVIEW] Threshold calibration required for production
+[REVIEW] Model monitoring required in production
+[REVIEW] Data drift monitoring required
+[REVIEW] Bias/fairness assessment required before production

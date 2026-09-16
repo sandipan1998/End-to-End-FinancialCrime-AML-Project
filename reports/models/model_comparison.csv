@@ -1,0 +1,4 @@
+model,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,true_negatives,false_positives,false_negatives,true_positives,false_positive_rate,false_negative_rate
+Logistic Regression,0.5,0.9996341463414634,0.966542750929368,1.0,0.9829867674858223,1.0,1.0,24331,9,0,260,0.0003697617091207888,0.0
+XGBoost,0.5,1.0,1.0,1.0,1.0,1.0,0.9999999999999998,24340,0,0,260,0.0,0.0
+CatBoost,0.5,0.9999186991869918,0.9923664122137404,1.0,0.9961685823754789,1.0,1.0,24338,2,0,260,8.216926869350862e-05,0.0
