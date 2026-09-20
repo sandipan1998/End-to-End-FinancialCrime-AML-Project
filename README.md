@@ -213,9 +213,7 @@ The SAR component produces analyst-reviewable drafts and does not automatically 
 - Implement secure enterprise deployment
 - Integrate approved LLM infrastructure for controlled SAR drafting
 
-
-## I developed an AML transaction-monitoring pipeline that combines rule-based detection, machine-learning risk scoring and SHAP explainability, then converts the alerts into customer-level investigation cases with risk prioritization, red-flag analysis and analyst disposition workflows.
-
- ### I developed a human-in-the-loop AI-assisted SAR narrative generation workflow that converts structured AML investigation evidence into a chronological draft covering who, what, when, where and why, while preserving analyst control over the final SAR decision.
-
- ## I built an end-to-end AML transaction monitoring and investigation platform using synthetic US financial-institution data. The platform combines behavioral AML rules, machine-learning risk scoring, SHAP explainability, alert prioritization, customer-level investigations, and an AI-assisted SAR narrative workflow
+# Summary: 
+## I developed an end-to-end synthetic US AML transaction-monitoring project to understand how financial institutions can identify and prioritize potentially suspicious customer activity. I generated customer, account, and transaction data, then implemented rule-based detection for patterns such as structuring, rapid movement, funnel accounts, layering, and mule behavior.
+## I engineered customer-level and transaction-level behavioral features over 24-hour, 7-day, and 30-day periods. I compared Logistic Regression, XGBoost, and CatBoost models using a time-based split and used SHAP to explain the model's risk drivers.
+## After generating risk scores, I developed an alert-prioritization and investigation workflow that includes customer profiles, transaction reviews, red flags, analyst disposition fields, and SAR narrative drafts. The SAR drafts are only assistance for human review; the project does not automatically file SARs or make legal determinations.
